@@ -60,15 +60,3 @@ class DoomEngine:
 if __name__ == '__main__':
     doom = DoomEngine()
     doom.run()
-
-
-
-
-
-
-
-
-
-
-
-
