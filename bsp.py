@@ -2,7 +2,7 @@ from settings import *
 
 
 class BSP:
-    SUB_SECTOR_IDENTIFIER = 0x8000  # 2**15 = 32768        (treba vubec nevim co to znamena ale typek z tutorialu rikal ze to tak ma doom proste nastaveny)
+    SUB_SECTOR_IDENTIFIER = 0x8000  # 2**15 = 32768
 
     def __init__(self, engine):
         self.engine = engine
